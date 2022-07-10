@@ -1,0 +1,90 @@
+/***************************
+***   *CSS by Jennie*    ***
+***There be dragons ahead***
+***************************/
+
+/* #region base */
+
+html {
+    box-sizing: border-box;
+    font-size: inherit;
+    --orange: rgb(251, 191, 69);
+    --red: rgb(225, 57, 5);
+    --yellow: rgb(235, 237, 118);
+    --green: rgb(42, 173, 71);
+    --blue: rgb(41, 75, 155);
+    --purple: rgba(173, 57, 196, 0.858);
+    --brown: rgb(119, 69, 33);
+    --3p75px: 0.2343rem;
+    --9p6px: 0.6rem;
+    --9p72px: 0.6075rem;
+    --10px: 0.625rem;
+    --10p6px: 0.66625rem;
+    --10p8px: 0.675rem;
+    --11p88px: 0.7425rem;
+    --12px: 0.75rem;
+    --12p5px: 0.78125rem;
+    --13px: 0.8125rem;
+    --13p33px: 0.8331rem;
+    --14p66px: 0.9162r --16px: 1rem;
+    --15px: 0.9375rem;
+    --16p66: 1.041rem;
+    --17p33px: 1.08rem;
+    --18px: 1.125rem;
+    --19p5px: 1.21875rem;
+    --20px: 1.25rem;
+    --21p66px: 1.353rem;
+    --23p33px: 1.45rem;
+    --24px: 1.5rem;
+    --25px: 1.5625rem;
+    --26p66px: 1.66rem;
+    --30px: 1.875rem;
+    --36px: 2.25rem;
+    --43p33px: 2.7rem;
+    --46p66px: 2.91625rem;
+    --56px: 3.5rem;
+    --69px: 4.31rem;
+}
+.inner {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    outline: 2px solid slateblue;
+}
+
+/* #endregion base */
+
+/* #region board */
+table * {
+    outline: 2px solid pink;
+}
+table {
+    width: 720px;
+    height: 720px;
+}
+td {
+    width: 120px;
+    height: 120px;
+}
+.orange {
+    background-color: var(--orange);
+}
+.red {
+    background-color: var(--red);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.green {
+    background-color: var(--green);
+}
+.blue {
+    background-color: var(--blue);
+}
+.purple {
+    background-color: var(--purple);
+}
+.brown {
+    background-color: var(--brown);
+}
+/* #endregion board */
