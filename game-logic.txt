@@ -1,0 +1,56 @@
+PHASE 1 (console game)
+    Player 1 
+        - console.log("Player One's Turn")
+    Roll Dice
+        - console.log("Press Enter to roll dice.")
+        - Create Random Number Between 1 - 6
+        - console.log(Number)
+    Question Appears
+        - console.log(Anki Question)
+        - console.log("Press 'Y' to see answer")
+    Answer Appears
+        - console.log(Anki Answer)
+        - console.log("Did you get it correct? Y or N")
+    Score
+        if correct answer:
+            - Increase Player 1 Points
+            - console.log(Player 1 Points)
+            - Increase Player 1 Game Pieces
+            - console.log(Number of Player 1 Pieces)
+            - Player 1 continues
+        if !correct answer:
+            - Switch Players
+            - console.log("Player Two's Turn")
+
+PHASE 2 (Basic Frontend game)
+   Player 1 
+        - Display "Player One's Turn"
+    Roll Dice
+        - Press 'Roll Dice' Button to Roll Dice.
+        - Create Random Number Between 1 - 6
+        - Display Number
+    Question Appears
+        - Choose Random question from array of question : answer objects
+        - Display Question
+        - Press 'Answer' Button to see answer
+    Answer Appears
+        - Display Answer to question
+        - Display "Did you get it correct? Y or N"
+    Score
+        if correct answer:
+            - Increase Player 1 Points
+            - Display Player 1 Points
+            - Increase Player 1 Game Pieces
+            - Display Number of Player 1 Pieces
+            - Player 1 continues
+        if !correct answer:
+            - Switch Players
+            - Display "Player Two's Turn"
+
+PHASE 3 (FullStack Game w/ Animations)
+
+    ...
+
+PHASE 4
+
+    ...
