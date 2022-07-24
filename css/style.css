@@ -71,9 +71,53 @@ div {
 .square {
     display: inline;
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
 }
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .one { grid-area: 1 / 1 / 2 / 2; }
+    .two { grid-area: 1 / 2 / 2 / 3; }
+    .three { grid-area: 1 / 3 / 2 / 4; }
+    .four { grid-area: 1 / 4 / 2 / 5; }
+    .five { grid-area: 1 / 5 / 2 / 6; }
+    .six { grid-area: 1 / 6 / 2 / 7; }
+    .seven { grid-area: 1 / 7 / 2 / 8; }
+    .eight { grid-area: 1 / 8 / 2 / 9; }
+    .nine { grid-area: 2 / 8 / 3 / 9; }
+    .ten { grid-area: 3 / 8 / 4 / 9; }
+    .eleven { grid-area: 4 / 8 / 5 / 9; }
+    .twelve { grid-area: 5 / 8 / 6 / 9; }
+    .thirteen { grid-area: 6 / 8 / 7 / 9; }
+    .fourteen { grid-area: 7 / 8 / 8 / 9; }
+    .fifteen { grid-area: 8 / 8 / 9 / 9; }
+    .sixteen { grid-area: 9 / 8 / 10 / 9; }
+    .seventeen { grid-area: 10 / 8 / 11 / 9; }
+    .eighteen { grid-area: 11 / 8 / 12 / 9; }
+    .nineteen { grid-area: 12 / 8 / 13 / 9; }
+    .twenty { grid-area: 12 / 7 / 13 / 8; }
+    .twentyone { grid-area: 12 / 6 / 13 / 7; }
+    .twentytwo { grid-area: 12 / 5 / 13 / 6; }
+    .twentythree { grid-area: 12 / 4 / 13 / 5; }
+    .twentyfour { grid-area: 12 / 3 / 13 / 4; }
+    .twentyfive { grid-area: 12 / 2 / 13 / 3; }
+    .twentysix { grid-area: 12 / 1 / 13 / 2; }
+    .twentyseven { grid-area: 11 / 1 / 12 / 2; }
+    .twentyeight { grid-area: 10 / 1 / 11 / 2; }
+    .twentynine { grid-area: 9 / 1 / 10 / 2; }
+    .thirty { grid-area: 8 / 1 / 9 / 2; }
+    .thirtyone { grid-area: 7 / 1 / 8 / 2; }
+    .thirtytwo { grid-area: 6 / 1 / 7 / 2; }
+    .thirtythree { grid-area: 5 / 1 / 6 / 2; }
+    .thirtyfour { grid-area: 4 / 1 / 5 / 2; }
+    .thirtyfive { grid-area: 3 / 1 / 4 / 2; }
+    .thirtysix { grid-area: 2 / 1 / 3 / 2; }
 .orange {
     background-color: var(--orange);
 }
