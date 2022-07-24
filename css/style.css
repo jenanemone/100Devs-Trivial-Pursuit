@@ -45,6 +45,9 @@ html {
     --56px: 3.5rem;
     --69px: 4.31rem;
 }
+body {
+    border: 3px gray solid;
+}
 .inner {
     width: 100%;
     height: 100%;
@@ -53,18 +56,17 @@ html {
 }
 
 /* #endregion base */
-
+h1 {
+    text-align:center;
+    color:rgb(225, 57, 5);
+    font-family: 'Courier New', Courier, monospace;
+}
 /* #region board */
-table * {
-    outline: 2px solid pink;
-}
-table {
-    width: 720px;
-    height: 720px;
-}
-td {
-    width: 120px;
-    height: 120px;
+div {
+    margin: 0;
+    border: 3px solid red;
+    width: 100%;
+    height: 100%;
 }
 .orange {
     background-color: var(--orange);
