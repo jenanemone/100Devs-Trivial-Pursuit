@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+div {
+    width: 50px;
+    height: 50px;
+    outline: 2px magenta solid;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    }
+    
+    .div1 { grid-area: 1 / 4 / 2 / 5; }
+    .div2 { grid-area: 1 / 5 / 2 / 6; }
+    .div3 { grid-area: 1 / 6 / 2 / 7; }
+    .div4 { grid-area: 1 / 7 / 2 / 8; }
+    .div5 { grid-area: 1 / 8 / 2 / 9; }
+    .div6 { grid-area: 1 / 9 / 2 / 10; }
+    .div7 { grid-area: 2 / 9 / 3 / 10; }
+    .div8 { grid-area: 3 / 10 / 4 / 11; }
+    .div9 { grid-area: 4 / 11 / 5 / 12; }
+    .div10 { grid-area: 5 / 11 / 6 / 12; }
+    .div11 { grid-area: 6 / 12 / 7 / 13; }
+    .div12 { grid-area: 7 / 11 / 8 / 12; }
+    .div13 { grid-area: 8 / 11 / 9 / 12; }
+    .div14 { grid-area: 9 / 10 / 10 / 11; }
+    .div15 { grid-area: 10 / 9 / 11 / 10; }
+    .div16 { grid-area: 11 / 8 / 12 / 9; }
+    .div17 { grid-area: 12 / 8 / 13 / 9; }
+    .div18 { grid-area: 12 / 7 / 13 / 8; }
+    .div19 { grid-area: 12 / 6 / 13 / 7; }
+    .div20 { grid-area: 12 / 5 / 13 / 6; }
+    .div21 { grid-area: 11 / 5 / 12 / 6; }
+    .div22 { grid-area: 10 / 4 / 11 / 5; }
+    .div23 { grid-area: 9 / 3 / 10 / 4; }
+    .div24 { grid-area: 8 / 2 / 9 / 3; }
+    .div25 { grid-area: 7 / 2 / 8 / 3; }
+    .div26 { grid-area: 6 / 1 / 7 / 2; }
+    .div27 { grid-area: 5 / 2 / 6 / 3; }
+    .div28 { grid-area: 4 / 2 / 5 / 3; }
+    .div29 { grid-area: 3 / 3 / 4 / 4; }
+    .div30 { grid-area: 2 / 4 / 3 / 5; }
+    .div31 { grid-area: 9 / 9 / 10 / 10; }
+    .div32 { grid-area: 8 / 8 / 9 / 9; }
+    .div33 { grid-area: 7 / 7 / 8 / 8; }
+    .div34 { grid-area: 4 / 10 / 5 / 11; }
+    .div35 { grid-area: 5 / 9 / 6 / 10; }
+    .div36 { grid-area: 6 / 8 / 7 / 9; }
+    .div37 { grid-area: 7 / 6 / 8 / 7; }
+    .div38 { grid-area: 6 / 5 / 7 / 6; }
+    .div39 { grid-area: 5 / 4 / 6 / 5; }
+    .div40 { grid-area: 4 / 3 / 5 / 4; }
+    .div41 { grid-area: 8 / 5 / 9 / 6; }
+    .div42 { grid-area: 9 / 4 / 10 / 5; }
+    .div43 { grid-area: 6 / 6 / 7 / 7; }
+    .div44 { grid-area: 5 / 6 / 6 / 7; }
+    .div45 { grid-area: 4 / 6 / 5 / 7; }
+    .div46 { grid-area: 3 / 6 / 4 / 7; }
+    .div47 { grid-area: 2 / 6 / 3 / 7; }
+    .div48 { grid-area: 8 / 7 / 9 / 8; }
+    .div49 { grid-area: 9 / 7 / 10 / 8; }
+    .div50 { grid-area: 10 / 7 / 11 / 8; }
+    .div51 { grid-area: 11 / 7 / 12 / 8; }
